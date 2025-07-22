@@ -1,8 +1,3 @@
-Here is your cleaned and professional README.md without emojis and with all sensitive content removed. It’s now safe to push to GitHub:
-
-⸻
-
-
 # SynapSolve – AI Helpdesk Automation Suite
 
 A modern, full-featured helpdesk automation platform built using React, Firebase, Neo4j, and OpenAI. SynapSolve streamlines customer support through intelligent ticket assignment, automatic summarization, and a responsive, role-based user experience.
