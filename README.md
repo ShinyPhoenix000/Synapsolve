@@ -26,23 +26,32 @@ A modern, full-featured helpdesk automation platform built using React, Firebase
 ## Architecture Overview
 
 src/
-├── components/        # Reusable UI components
-├── config/            # Firebase and environment setup
-├── context/           # Auth and role-based context providers
-├── hooks/             # Custom React hooks
-├── pages/             # Page-level components (Dashboard, etc.)
-├── services/          # API integrations (OpenAI, Neo4j, Calendar, Firebase)
-├── types/             # TypeScript interfaces and types
-├── utils/             # Helper utilities and constants
-└── App.tsx            # Main application entry point
+├── components/        # Reusable UI components  
+
+├── config/            # Firebase and environment setup  
+
+├── context/           # Auth and role-based context providers  
+
+├── hooks/             # Custom React hooks  
+
+├── pages/             # Page-level components (Dashboard, etc.)  
+
+├── services/          # API integrations (OpenAI, Neo4j, Calendar, Firebase)  
+
+├── types/             # TypeScript interfaces and types  
+
+├── utils/             # Helper utilities and constants  
+
+└── App.tsx            # Main application entry point  
+
 
 ## Design System
 
 ### Colors
-- **Primary**: Blue gradient (#3B82F6 to #2563EB)
-- **Secondary**: Purple gradient (#8B5CF6 to #7C3AED)
-- **Accent**: Green (#10B981)
-- **Status**: Informative colors based on ticket priority/status
+- **Primary**: Blue gradient (#3B82F6 to #2563EB)  
+- **Secondary**: Purple gradient (#8B5CF6 to #7C3AED)  
+- **Accent**: Green (#10B981)  
+- **Status**: Informative colors based on ticket priority/status  
 
 ### Typography
 - **Font**: Inter (via Google Fonts)
@@ -75,10 +84,10 @@ src/
 npm install
 
 
-	3.	Configure environment variables:
-	•	Create a .env file using .env.example as a template.
-	•	Do not commit real secrets to Git.
-	4.	Start the development server:
+	3.	Configure environment variables:  
+	•	Create a .env file using .env.example as a template.  
+	•	Do not commit real secrets to Git.  
+	4.	Start the development server:  
 
 npm run dev
 
@@ -145,14 +154,14 @@ MIT License. See the LICENSE file for full details.
 ⸻
 
 Contributing
-	1.	Fork the repository
-	2.	Create a new branch:
+	1.	Fork the repository  
+	2.	Create a new branch:  
 
-git checkout -b feature/your-feature-name
+git checkout -b feature/your-feature-name  
 
 
-	3.	Commit your changes
-	4.	Push the branch and open a pull request
+	3.	Commit your changes  
+	4.	Push the branch and open a pull request  
 
 ⸻
 
