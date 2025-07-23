@@ -5,13 +5,13 @@ A modern, full-featured helpdesk automation platform built using React, Firebase
 ## Features
 
 ### Core Functionality
-- Secure Authentication: Google Sign-In and Email/Password (via Firebase Auth)
-- Role-Based Access: User-specific dashboards for Customers, Agents, and Admins
-- AI-Powered Ticket Intelligence: Summarization, sentiment analysis, and smart reply suggestions
-- Intelligent Agent Routing: Neo4j-based workload-aware ticket assignment
-- Real-Time Updates: In-app UI reflects live Firestore and routing changes
-- Filter and Search: Query tickets by status, priority, category, and date
-- Optional Calendar Integration: Automatically schedule events for certain ticket types
+- **Secure Authentication**: Google Sign-In and Email/Password (via Firebase Auth)
+- **Role-Based Access**: User-specific dashboards for Customers, Agents, and Admins
+- **AI-Powered Ticket Intelligence**: Summarization, sentiment analysis, and smart reply suggestions
+- **Intelligent Agent Routing**: Neo4j-based workload-aware ticket assignment
+- **Real-Time Updates**: In-app UI reflects live Firestore and routing changes
+- **Filter and Search**: Query tickets by status, priority, category, and date
+- **Optional Calendar Integration**: Automatically schedule events for certain ticket types
 
 ## Tech Stack
 
@@ -39,15 +39,15 @@ src/
 ## Design System
 
 ### Colors
-- Primary: Blue gradient (#3B82F6 to #2563EB)
-- Secondary: Purple gradient (#8B5CF6 to #7C3AED)
-- Accent: Green (#10B981)
-- Status: Informative colors based on ticket priority/status
+- **Primary**: Blue gradient (#3B82F6 to #2563EB)
+- **Secondary**: Purple gradient (#8B5CF6 to #7C3AED)
+- **Accent**: Green (#10B981)
+- **Status**: Informative colors based on ticket priority/status
 
 ### Typography
-- Font: Inter (via Google Fonts)
-- Weights: 300 to 700
-- Clean and legible layout with hierarchy-based spacing
+- **Font**: Inter (via Google Fonts)
+- **Weights**: 300 to 700
+- **Layout**: Clean and legible with hierarchy-based spacing
 
 ### Visuals
 - Glassmorphism UI effects (backdrop blur)
@@ -65,46 +65,55 @@ src/
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/synapsolve.git
    cd synapsolve
 
-	2.	Install dependencies
+	2.	Install dependencies:
 
 npm install
 
 
-	3.	Configure environment variables
-Create a .env file using .env.example as a template. Do not commit real secrets to Git.
-	4.	Start the development server
+	3.	Configure environment variables:
+	•	Create a .env file using .env.example as a template.
+	•	Do not commit real secrets to Git.
+	4.	Start the development server:
 
 npm run dev
 
 
+
+⸻
 
 Firebase Setup
 	•	Enable Firestore and Google/Email authentication providers
 	•	Add your development domain to Firebase Authentication settings
 
 OpenAI Integration
-	•	Obtain an API key from https://platform.openai.com
-	•	Set the key in your environment file as VITE_OPENAI_API_KEY
+	•	Obtain an API key from OpenAI
+	•	Set the key in your .env file as:
+
+VITE_OPENAI_API_KEY=your_key_here
+
+
 
 Neo4j Integration (Optional)
 	•	Create a free instance on Neo4j AuraDB
-	•	Add credentials and URI to the environment configuration
+	•	Add credentials and URI to your .env file
 
 Google Calendar API (Optional)
 	•	Enable the Calendar API in Google Cloud Console
 	•	Create OAuth credentials and register the localhost origin for development
-	•	Configure the client ID and secret in .env
+	•	Add the client ID and secret to your .env
+
+⸻
 
 Deployment
 
 Vercel (Recommended)
-	•	Connect repository
-	•	Add environment variables in the dashboard
+	•	Connect your GitHub repository
+	•	Add environment variables in the Vercel dashboard
 	•	Vercel automatically handles builds and deployment
 
 Firebase Hosting
@@ -117,24 +126,36 @@ firebase deploy
 Netlify
 	•	Build command: npm run build
 	•	Publish directory: dist
-	•	Set required environment variables
+	•	Set required environment variables in the Netlify UI
+
+⸻
 
 Security Notes
 	•	Do not commit .env or real API keys
 	•	Always use Firestore security rules and access control logic
-	•	Consider moving AI and calendar logic server-side for production
+	•	Move AI and calendar logic server-side for production
 	•	Use Firebase App Check and enable analytics/firewall rules as needed
+
+⸻
 
 License
 
 MIT License. See the LICENSE file for full details.
 
+⸻
+
 Contributing
 	1.	Fork the repository
-	2.	Create a new branch (git checkout -b feature/feature-name)
+	2.	Create a new branch:
+
+git checkout -b feature/your-feature-name
+
+
 	3.	Commit your changes
 	4.	Push the branch and open a pull request
 
 ⸻
 
-For any issues, improvements, or feature requests, please open an issue in the repository.
+For issues, improvements, or feature requests, please open an issue in the repository.
+
+
