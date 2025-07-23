@@ -133,27 +133,27 @@ firebase init hosting
 firebase deploy
 
 Netlify
-	•	Build command: npm run build
-	•	Publish directory: dist
-	•	Set required environment variables in the Netlify UI
+	•	Build command: npm run build  
+	•	Publish directory: dist  
+	•	Set required environment variables in the Netlify UI  
 
 ⸻
 
 Security Notes
-	•	Do not commit .env or real API keys
-	•	Always use Firestore security rules and access control logic
-	•	Move AI and calendar logic server-side for production
-	•	Use Firebase App Check and enable analytics/firewall rules as needed
+	•	Do not commit .env or real API keys  
+	•	Always use Firestore security rules and access control logic  
+	•	Move AI and calendar logic server-side for production  
+	•	Use Firebase App Check and enable analytics/firewall rules as needed  
 
 ⸻
 
 License
 
-MIT License. See the LICENSE file for full details.
+MIT License. See the LICENSE file for full details.  
 
 ⸻
 
-Contributing
+Contributing  
 	1.	Fork the repository  
 	2.	Create a new branch:  
 
