@@ -96,54 +96,54 @@ npm run dev
 ⸻
 
 Firebase Setup
-	•	Enable Firestore and Google/Email authentication providers
-	•	Add your development domain to Firebase Authentication settings
+	•	Enable Firestore and Google/Email authentication providers  
+	•	Add your development domain to Firebase Authentication settings  
 
-OpenAI Integration
-	•	Obtain an API key from OpenAI
-	•	Set the key in your .env file as:
+OpenAI Integration  
+	•	Obtain an API key from OpenAI  
+	•	Set the key in your .env file as:  
 
-VITE_OPENAI_API_KEY=your_key_here
+VITE_OPENAI_API_KEY=your_key_here  
 
 
 
-Neo4j Integration (Optional)
-	•	Create a free instance on Neo4j AuraDB
-	•	Add credentials and URI to your .env file
-
-Google Calendar API (Optional)
-	•	Enable the Calendar API in Google Cloud Console
-	•	Create OAuth credentials and register the localhost origin for development
-	•	Add the client ID and secret to your .env
+Neo4j Integration  
+	•	Create a free instance on Neo4j AuraDB  
+	•	Add credentials and URI to your .env file  
+ 
+Google Calendar API   
+	•	Enable the Calendar API in Google Cloud Console  
+	•	Create OAuth credentials and register the localhost origin for development  
+	•	Add the client ID and secret to your .env  
 
 ⸻
 
 Deployment
 
 Vercel (Recommended)
-	•	Connect your GitHub repository
-	•	Add environment variables in the Vercel dashboard
-	•	Vercel automatically handles builds and deployment
+	•	Connect your GitHub repository  
+	•	Add environment variables in the Vercel dashboard  
+	•	Vercel automatically handles builds and deployment  
 
-Firebase Hosting
+Firebase Hosting  
 
-npm install -g firebase-tools
-firebase login
-firebase init hosting
-firebase deploy
+npm install -g firebase-tools  
+firebase login  
+firebase init hosting  
+firebase deploy  
 
-Netlify
-	•	Build command: npm run build  
-	•	Publish directory: dist  
-	•	Set required environment variables in the Netlify UI  
-
+Netlify  
+	•	Build command: npm run build    
+	•	Publish directory: dist    
+	•	Set required environment variables in the Netlify UI   
+ 
 ⸻
 
 Security Notes
-	•	Do not commit .env or real API keys  
-	•	Always use Firestore security rules and access control logic  
-	•	Move AI and calendar logic server-side for production  
-	•	Use Firebase App Check and enable analytics/firewall rules as needed  
+	•	Do not commit .env or real API keys    
+	•	Always use Firestore security rules and access control logic    
+	•	Move AI and calendar logic server-side for production    
+	•	Use Firebase App Check and enable analytics/firewall rules as needed    
 
 ⸻
 
